@@ -41,7 +41,8 @@ fun DetailRoutine(
         topBar = {
             TopBar(
                 title = "",
-                navigateUp = navigateUp)
+                navigateUp = navigateUp,
+                navigateTo = {navigateTo(ActiveAppScreen.WelcomeUser.name)})
         }
     ) { innerPadding ->
 
